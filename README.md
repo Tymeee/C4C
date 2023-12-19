@@ -1,4 +1,5 @@
 # Overview
+A take-home project for Code4Community's developer position.
 
 The program is a public message board that mimics the interface of a chat app. Users must aunthenticate themselves with their Google account to use the program.
 
