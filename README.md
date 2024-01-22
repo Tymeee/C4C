@@ -1,23 +1,3 @@
-# Overview
-A take-home project for Code4Community's developer position.
-
-The program is a public message board that mimics the interface of a chat app. Users must aunthenticate themselves with their Google account to use the program.
-
-## Component Explanation
-Front-end: ReactJS | Back-end: Firebase
-
-The program consists of five main components:
-- App - checks whether the user is signed in to use the message board
-- MessageBoard - displays all the messages sent along with the sender's information and the timestamps 
-- MessageBoardInput - consist of the input form form, text count, and submit button to send the message to the message board
-- SignIn - opens a pop up for users to sign in with their Gmail account
-- SignOut - sign out button
-
-The program utilizes Firebase Firestore as the backend with messages store in the following document fields:
-- createdAt (time-stamp)
-- photoURL (profile pic)
-- text (input message)
-- uid (account id)
   
 # Getting Started with Create React App
 
